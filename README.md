@@ -19,12 +19,12 @@ and nslookup command works well:
 But when I try to connect to 123.nucme over ssh:
 
 >_administrator@iMac-1 / % ssh user@123.nucme<br>
->ssh: Could not resolve hostname 123.nucme: nodename nor servname provided, or not known
+>ssh: Could not resolve hostname 123.nucme: nodename nor servname provided, or not known<br>_
 
 The ping command does not work also
 
 >_administrator@iMac-1 resolver % ping 123.nucme   
->ping: cannot resolve 123.nucme: Unknown host<br>
+>ping: cannot resolve 123.nucme: Unknown host<br>_
 
 Why? I flushed DNS cach and restarted DNS daemon on my mac:
 
