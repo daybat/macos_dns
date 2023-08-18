@@ -1,6 +1,8 @@
 # macos_dns
-macos 13.5 (Ventura) : "host" &amp; "nslookup" commands can resolve the local domain, but ssh &amp; safari can't connect to host
-Inside my network I have DNS server which controls local domain nucme. The command host can resolve the domain name:
+**macos 13.5 (Ventura) : "host" &amp; "nslookup" commands can resolve the local domain, but ssh &amp; safari can't connect to host**
+
+
+Inside my network I have DNS server which controls local domain nucme. The command host can resolve the domain name:**
 
 administrator@iMac-1 / % host 123.nucme
 123.nucme has address 192.168.1.22
