@@ -34,8 +34,8 @@ Apple support has not helped me at all. They said to connect me with senior mana
 
 
 
-**Solution:
-**
+**Solution:**
+
 open terminal and run the followin commands:
 
 if your system does not have /etc/resolver folder:
